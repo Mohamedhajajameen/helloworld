@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>video player</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+</head>
+<body>
+	<div class="video-player">
+		<video id="video" >
+			<source src="http://uthraportfolio.000webhostapp.com/portfolio/6-video_player/videos/bahubali.mp4" type="video/mp4">
+		</video>
+		<div class="icons">
+		<button id="button-play">
+				<i class="fa fa-play" aria-hidden="true"></i>
+			</button>
+			<button id="button-pause">
+				<i class="fa fa-pause" aria-hidden="true"></i>
+			</button>
+			<button id="next">
+				<i class="fa fa-step-forward" aria-hidden="true"></i>
+			</button>
+			<button id="volume-up">
+                <i class="fa fa-volume-up" aria-hidden="true"></i>
+			</button>
+			<button id="volume-down">
+                <i class="fa fa-volume-down" aria-hidden="true"></i>
+			</button>
+			<button id="mute">
+               <i class="fa fa-volume-off" aria-hidden="true"></i>
+			</button>
+			<div class="time">
+				<div class="clear-me"></div>
+				<span id="curtimetext">00.00 </span>
+				<span id="durtimetext">00.00</span>
+			</div>
+			<input class="seekslider" id="seekslider" type="range" min="0" max="100" value="0" step="1">
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>

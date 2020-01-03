@@ -1,0 +1,293 @@
+@media (max-width: 1199px) {
+    .container {
+        width: 83%;
+        margin: 0 auto;
+    }
+    section.Capabalities {
+        margin-bottom: 135px;
+    }
+}
+
+
+/*991 lap breakpoint*/
+
+@media (max-width: 991px) {
+    .banner-content .banner-left h1 {
+        font-size: 37px;
+        line-height: 55px;
+    }
+    .container {
+        width: 87%;
+        margin: 0 auto;
+    }
+    .banner-content .banner-left p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .banner-content .banner-img img {
+        height: 397px;
+    }
+    .portfolio p {
+        font-size: 20px;
+        line-height: 34px;
+        max-width: 545px;
+    }
+    .testimonal p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .portfolio-info .info-right {
+        float: left;
+        color: white;
+        width: 38%;
+        max-width: 511px;
+        width: 100%;
+    }
+    .info-img img {
+        width: 100%;
+    }
+    .portfolio-info .info-img {
+        width: 100%;
+        margin-top: 165px;
+    }
+    .portfolio-info .info-right p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .portfolio-info {
+        margin-bottom: 142px;
+    }
+    .portfolios .portfolio3-img {
+        margin-top: 131px;
+    }
+    .burt .burt-left {
+        width: 75%;
+    }
+    .burt .burt-right {
+        float: left;
+        width: 100%;
+        margin-top: 165px;
+    }
+    .testimonal-part .testimonal-2 h2 {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .testimonal-part .testimonal-2 {
+        margin-bottom: 131px;
+    }
+    .Blurredpixel p,
+    .burt .burt-left p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .capability-left h3 {
+        font-size: 30px;
+        line-height: 47px;
+    }
+    .capability-left p {
+        font-size: 20px;
+        line-height: 34px;
+        max-width: 562px;
+    }
+    .capability-left .list {
+        display: none;
+    }
+    .capability-left .list-md {
+        display: block;
+        font-size: 20px;
+    }
+    .capability-left .list-md ul li {
+        font-size: 18px;
+        line-height: 34px;
+        margin-bottom: 5px;
+    }
+    .capability-left .list-md img {
+        display: inline-block;
+        padding-right: 10px;
+    }
+    .webflow-left .web-list {
+        display: none;
+    }
+    .webflow-left .weblist-md {
+        display: block;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .webflow-left .weblist-md ul li {
+        font-size: 18px;
+        line-height: 34px;
+        margin-bottom: 5px;
+    }
+    .webflow-left .weblist-md img {
+        display: inline-block;
+        padding-right: 10px;
+    }
+    .capability-right img {
+        width: 325px;
+        float: right;
+    }
+    .webflow-left {
+        margin-top: 47px;
+    }
+    .webflow-left h1 {
+        font-size: 33px;
+    }
+    .webflow-left h3 {
+        font-size: 30px;
+        line-height: 47px;
+    }
+    .webflow-left p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .webflow-right img {
+        width: 329px;
+        margin-top: 47px;
+    }
+    .contact-form p {
+        font-size: 20px;
+        line-height: 34px;
+        font-weight: 400;
+        /*margin-bottom: 10px;*/
+    }
+    .footer-left {
+        float: none;
+        max-width: 300px;
+        margin-bottom: 34px;
+    }
+    .footer-right {
+        float: none;
+    }
+}
+
+
+/*767 tab breakpoint*/
+
+@media (max-width: 767px) {
+    .navbar .remove-md {
+        display: none;
+    }
+    .navbar .nav li {
+        margin-left: 20px;
+    }
+    header {
+        margin-top: 7px;
+        padding: 22px 16px 10px 16px;
+    }
+    .banner-content .banner-left h1 {
+        font-size: 30px;
+        line-height: 47px;
+    }
+    .banner-content .banner-img img {
+        height: 319px;
+        width: 265px;
+    }
+    .portfolio h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .portfolio h3 {
+        font-size: 30px;
+        line-height: 47px;
+    }
+    .portfolio1-img,
+    .portfolio2-img,
+    .portfolio3-img,
+    .portfolio4-img,
+    .capability-right,
+    .webflow-right {
+        display: none;
+    }
+    .portfolio1-md-img,
+    .portfolio2-md-img,
+    .portfolio3-md-img,
+    .portfolio4-md-img {
+        display: block;
+        margin-top: 131px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .capability-md-right,
+    {
+        display: block;
+        margin-top: 60px;
+    }
+    .capability-md-right img,
+    .webflow-md-right img {
+        max-width: 246.78px;
+    }
+    .webflow-md-right {
+        display: block;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    .portfolio1-md-img img,
+    .portfolio2-md-img img,
+    .portfolio3-md-img img,
+    .portfolio4-md-img img {
+        width: 100%;
+    }
+    .portfolio-info .info-right h1,
+    .Blurredpixel h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .portfolio-info .info-right h2,
+    .burt .burt-left h2,
+    .Blurredpixel h3,
+    .capability-left h1,
+    .webflow-left h3,
+    .contact-form h1,
+    .contact-form .contact-mail h2 {
+        font-size: 30px;
+        line-height: 47px;
+    }
+    .webflow-left h3 {
+        max-width: 607px;
+    }
+    .webflow-left p {
+        max-width: 552px;
+    }
+    .burt .burt-left h1,
+    .capability-left h2,
+    .webflow-left h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .Blurredpixel p {
+        max-width: 566px;
+    }
+    .capability-left,
+    .webflow-left {
+        width: 100%;
+    }
+    .webflow-left .weblist-md {
+        font-size: 18px;
+    }
+    .contact-form .form-input {
+        max-width: 544px;
+    }
+}
+
+@media (max-width: 460px){
+    .container{
+        width: 95%;
+    }
+    .burt-right img{
+        width: 100%;
+    }
+    .input-form input{
+        width: 100%;
+        max-width: none;
+    }
+    .input-email{
+        width: 100%;
+        max-width: none;
+        padding: 0px 0px;
+    }
+    .contact-form textarea{
+        width: 84%;
+        max-width: none;
+    }
+}
+

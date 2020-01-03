@@ -1,0 +1,24 @@
+.wrapper {
+    margin: 25px auto;
+    width: 1000px;
+    /*height: 800px;*/
+    background: #00a1ffb3;
+    color: black;
+    border-radius: 33px;
+    border: 2px solid rebeccapurple;
+    border-width: 10px;
+}
+.wrapper:hover {
+    border-color: blue;
+    box-shadow: 2px 6px 46px;
+    color: white;
+}
+.wrapper p {
+    margin-left: 40px;
+    font-size: 29px;
+    line-height: 72px;
+    font-style: oblique;
+    font-variant-caps: petite-caps;
+    -webkit-font-smoothing: inherit;
+    font-weight: bolder;
+}

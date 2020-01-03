@@ -1,0 +1,130 @@
+.ad-wrapper {
+    width: 970px;
+    height: 250px;
+    position: relative;
+    margin-top: 19px;
+    overflow: hidden;
+}
+.ad-wrapper .wrapper-1 {
+    background-image: url('http://uthraportfolio.000webhostapp.com/iframes/3-animated_banner/images/bg-4.png');
+    height: 250px;
+    background-size: cover;
+    left: 0;
+    position: relative;
+    z-index: 6;
+}
+.ad-wrapper .wrapper-2 {
+    background-image: url(http://uthraportfolio.000webhostapp.com/iframes/3-animated_banner/images/bg-6.png);
+    background-size: cover;
+    position: absolute;
+    height: 250px;
+    left: 0;
+    top: 0;
+    width: 971px;
+    z-index: 5;
+}
+.ad-wrapper .wrapper-3 {
+    background-image: url('http://uthraportfolio.000webhostapp.com/iframes/3-animated_banner/images/bg-1.png');
+    background-size: cover;
+    position: absolute;
+    height: 250px;
+    left: 0;
+    top: 0;
+    width: 971px;
+    z-index: 4;
+}
+.ad-wrapper .wrapper-4 {
+    background-image: url('http://uthraportfolio.000webhostapp.com/iframes/3-animated_banner/images/bg-5.png');
+    background-size: cover;
+    position: absolute;
+    height: 250px;
+    left: 0;
+    top: 0;
+    width: 971px;
+    z-index: 3;
+}
+.ad-wrapper .wrapper-5 {
+    background-image: url('http://uthraportfolio.000webhostapp.com/iframes/3-animated_banner/images/bg-3.png');
+    background-size: cover;
+    position: absolute;
+    height: 250px;
+    left: 0;
+    top: 0;
+    width: 971px;
+    z-index: 2;
+}
+.ad-wrapper .wrapper-6 {
+    position: absolute;
+    background: rgba(255, 180, 188, 1);
+    left: 0;
+    top: 0;
+    color: #fff;
+    width: 971px;
+    height: 250px;
+}
+.ad-wrapper .wrapper-6 p {
+    padding-top: 30px;
+    padding-left: 37px;
+    font-size: 38px;
+    max-width: 489px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.wrapper-6-content {
+    opacity: 0;
+    width: 482px;
+}
+.ad-wrapper .wrapper-6 .call-to-action {
+    position: absolute;
+    z-index: 8;
+    padding-left: 39px;
+    padding-top: 42px;
+}
+.ad-wrapper .wrapper-6 .call-to-action a {
+    border: 0px solid;
+    display: inline-block;
+    padding: 14px 40px 14px 40px;
+    background: rgba(238, 54, 37, 0.99);
+    color: white;
+    text-decoration: none;
+}
+.ad-wrapper .inner-element {
+    position: absolute;
+    top: 26px;
+    left: 29px;
+    z-index: 7;
+}
+.ad-wrapper .inner-element img {
+    width: 713px;
+}
+.ad-wrapper .logo {
+    float: right;
+    position: absolute;
+    bottom: 25px;
+    right: 29px;
+    z-index: 7;
+}
+.clear-me {
+    clear: both;
+}
+.slide-move {
+    animation: leftmove 0.5s ease;
+}
+.content-move {
+    animation: topmove 0.5s ease;
+}
+.show {
+    display: block;
+}
+.hide {
+    opacity: 0;
+}
+.zoomin {
+    animation: zoom 0.5s linear;
+}
+.zoomcontent {
+    animation: fade 1s ease;
+}
+.show {
+    opacity: 1;
+}

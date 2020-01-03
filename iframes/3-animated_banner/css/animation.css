@@ -1,0 +1,26 @@
+@keyframes leftmove{
+	0%{left: 0px;}
+	100%{left: -971px;}
+}
+@keyframes topmove{
+	0%{
+		transform: translate(0, -100%);
+	}
+	100%{
+		transform: translate(0,0);
+	}
+}
+@keyframes zoom{
+	0%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(3);
+		opacity: 0;
+	}
+}
+@keyframes fade{
+	0%{transform: scale(0);}
+	100%{transform: scale(1);
+		opacity: 1;}
+}

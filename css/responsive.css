@@ -1,0 +1,212 @@
+@media (max-width: 1199px) {
+	.container {
+		width: 971px;
+	}
+	.work1,
+	.work2,
+	.work3,
+	.work4 {
+		width: 310px;
+		margin: 0px 7px;
+	}
+	.work2-overlay .text{
+		padding: 131px 0;	
+	}
+}
+
+@media (max-width: 991px) {
+	.container {
+		width: 747px;
+	}
+	.header .toggle-menu {
+		position: relative;
+		float: right;
+		color: #fff;
+		padding: 0px 6px;
+		font-size: 34px;
+		display: inline-block;
+		top: 12px;
+	}
+	.toggle-menu i {
+		display: block;
+	}
+	.work2-overlay .text{
+		padding: 104px 0;	
+	}
+	.header .toggle-close {
+		position: relative;
+		float: right;
+		color: #fff;
+		padding: 0px 6px;
+		font-size: 34px;
+		display: none;
+		top: 12px;
+	}
+	.header .toggle-content {
+		position: absolute;
+		top: 60px;
+		right: 0;
+		z-index: 1;
+		background: #fff4f4;
+		display: none;
+		width: 100%;
+	}
+	.header .toggle-content ul>li {
+		padding: 15px;
+		font-size: 23px;
+		padding: 20px 100px;
+		text-align: center;
+		border-bottom: 1px solid #fff;
+		font-family: 'Fira Sans Extra Condensed', sans-serif;
+	}
+	.header .toggle-content ul>li a {
+		text-decoration: none;
+		color: #358089;
+		font-weight: bolder;
+	}
+	.header .nav-header {
+		display: none;
+	}
+	.section-3 .content {
+		padding: 40px 2px;
+	}
+	.skill1 {
+		padding-left: 22px;
+		padding-right: 22px;
+	}
+
+	.work1,
+	.work2,
+	.work3,
+	.work4 {
+		width: 240px;
+		margin: 0px 7px;
+	}
+	.section-4 .study1,
+	.study2,
+	.study3 {
+		margin-top: 6px;
+	}
+	.section-1 .content {
+		top: 178px;
+		left: 183px;
+	}
+	.section-2 img {
+		height: 401px;
+	}
+	
+}
+
+@media(max-width: 767px) {
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.section-1 .content {
+		top: 130px;
+		left: 100px;
+	}
+	.section-1 .content h3 {
+		font-size: 60px;
+	}
+	.section-1 .content {
+		padding: 0;
+	}
+	.section-1 .content p {
+		font-size: 21px;
+	}
+	.section-4 .study1,
+	.study2,
+	.study3 {
+		margin-bottom: 75px;
+	}
+	.work2-overlay .text {
+    padding: 164px 0;
+	}
+	.work1,
+	.work2,
+	.work3,
+	.work4 {
+		width: 400px;
+		margin: 0px auto 33px auto;
+	}
+	.work-row2 {
+		margin-top: 0px;
+	}
+	.banner {
+		margin: 0px auto;
+	}
+}
+
+@media (max-width: 460px) {
+	.container {
+		width: 95%;
+		margin: 0 auto;
+	}
+	.section-1 .content h3 {
+		font-size: 38px;
+	}
+	.header h2 {
+		font-size: 24px;
+		letter-spacing: 2px;
+		padding: 18px 19px;
+	}
+	.about-content h4 {
+		font-size: 32px;
+	}
+	.about-content {
+		margin-top: 60px;
+	}
+	.section-2 .girl-img {
+		margin-bottom: 63px;
+		text-align: center;
+	}
+	.section-2 .girl-img img {
+		height: 306px;
+	}
+	.section-1 .content p {
+		letter-spacing: 10px;
+		margin-top: 6px;
+		font-size: 13px;
+	}
+	.section-1 .content {
+		top: 63px;
+		left: 47px;
+		padding: 0;
+	}
+	.header .toggle-menu {
+		padding: 0px 6px;
+		font-size: 26px;
+	}
+	.header .toggle-content ul>li {
+		font-size: 19px;
+	}
+	.section-3 .content {
+		padding: 40px 0;
+	}
+	.footer-icons .icon-2 {
+		font-size: 12px;
+		padding: 0px 13px;
+	}
+	.form {
+		padding: 10px 0px;
+		font-size: 14px;
+		text-align: center;
+	}
+	.about-content {
+		margin-top: 16px;
+	}
+	.section-3 p {
+		font-size: 18px;
+	}
+	.work1,
+	.work2,
+	.work3,
+	.work4 {
+		width: 300px;
+		margin: 0px auto 33px auto;
+	}
+	.work2-overlay .text {
+    padding: 127px 0;
+}
+}

@@ -1,0 +1,421 @@
+/*creating form*/
+
+.create-form {
+    width: 430px;
+    height: 979px;
+    margin: 5px auto;
+    background: white;
+    border-radius: 24px;
+    box-shadow: 2px 5px 21px 9px #eaeaea;
+}
+
+.clear-me {
+    clear: both;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: bitter, Ex0-2;
+    background: #f8f8f8;
+}
+
+.logo {
+    padding: 52px 106px;
+    /* height: 131px; */
+    background: #5f3093;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.create-form h1 {
+    text-align: center;
+    font-size: 29px;
+    font-weight: bolder;
+    padding: 36px 0px;
+}
+
+.form-input {
+    padding-bottom: 29px;
+    color: #737474;
+}
+
+.form {
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.form-input input {
+    border: none;
+    border-bottom: 1px solid #8080805c;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-submit input {
+    width: 100%;
+    background-color: #313a38;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.next-option {
+    padding: 29px 23px 2px 135px;
+    font-size: 13px;
+}
+
+.next-option a {
+    border: 1px solid;
+    padding: 15px 146px;
+    /* text-align: left; */
+    margin-left: -105px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 9px;
+}
+
+.next-option h2 {
+    padding-top: 30px;
+}
+
+
+/*login form*/
+
+.login-form {
+    width: 430px;
+    height: 720px;
+    margin: 5px auto;
+    background: white;
+    border-radius: 24px;
+    box-shadow: 2px 5px 21px 9px #eaeaea;
+}
+
+.login-form h1 {
+    text-align: center;
+    font-size: 29px;
+    font-weight: bolder;
+    padding: 36px 0px;
+}
+
+.login-form .form-input {
+    padding-bottom: 29px;
+    color: #737474;
+}
+
+.login-form .form {
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.login-form .form a {
+    color: black;
+    margin-right: -2px;
+}
+
+.login-form .form p {
+    float: right;
+    font-size: 14px;
+    margin-top: -9px;
+    letter-spacing: 0px;
+    padding-left: 4px;
+}
+
+.login-form .form-input input {
+    border: none;
+    border-bottom: 1px solid #8080805c;
+    width: 100%;
+    padding: 10px;
+}
+
+.login-form .form-submit input {
+    width: 100%;
+    background-color: #313a38;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.login-form .form-submit {
+    padding-top: 30px;
+}
+
+.login-form .next-option {
+    padding: 29px 23px 2px 135px;
+    font-size: 13px;
+}
+
+.login-form .next-option a {
+    border: 1px solid;
+    padding: 15px 130px;
+    margin-left: -104px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 9px;
+}
+
+.login-form .next-option h2 {
+    padding-top: 30px;
+}
+
+
+/*request reset pwd*/
+
+.requestpass-form {
+    width: 430px;
+    height: 720px;
+    margin: 5px auto;
+    background: white;
+    border-radius: 24px;
+    box-shadow: 2px 5px 21px 9px #eaeaea;
+}
+
+.requestpass-form h1 {
+    text-align: center;
+    font-size: 29px;
+    font-weight: bolder;
+    padding: 36px 0px;
+}
+
+.requestpass-form .form-submit input {
+    width: 100%;
+    background-color: #313a38;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.requestpass-form .next-option-1 {
+    padding: 39px 23px 2px 135px;
+    font-size: 13px;
+}
+
+.requestpass-form .next-option-1 a {
+    border: 1px solid;
+    padding: 15px 130px;
+    margin-left: -104px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 9px;
+}
+
+.requestpass-form .next-option-1 h2 {
+    padding-top: 30px;
+}
+
+.requestpass-form .next-option-2 {
+    padding: 50px 23px 2px 135px;
+    font-size: 13px;
+}
+
+.requestpass-form .next-option-2 a {
+    border: 1px solid;
+    padding: 15px 146px;
+    margin-left: -104px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 9px;
+}
+
+.requestpass-form .next-option-2 h2 {
+    padding-top: 30px;
+}
+
+.requestpass-form .next-option-2 p {
+    padding-left: 13px;
+    color: #737474;
+}
+
+
+/*reset pwd*/
+
+.reset-form {
+    width: 430px;
+    height: 777px;
+    margin: 5px auto;
+    background: white;
+    border-radius: 24px;
+    box-shadow: 2px 5px 21px 9px #eaeaea;
+}
+
+.reset-form h1 {
+    text-align: center;
+    font-size: 29px;
+    font-weight: bolder;
+    padding: 36px 0px;
+}
+
+.reset-form .next-option-1 {
+    padding: 39px 23px 2px 135px;
+    font-size: 13px;
+}
+
+.reset-form .next-option-1 p {
+    color: #737474;
+}
+
+.reset-form .next-option-1 a {
+    border: 1px solid;
+    padding: 15px 130px;
+    margin-left: -104px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 9px;
+}
+
+.reset-form .next-option-1 h2 {
+    padding-top: 30px;
+}
+
+.reset-form .next-option-2 {
+    padding: 52px 23px 2px 135px;
+    font-size: 13px;
+}
+
+.reset-form .next-option-2 a {
+    border: 1px solid;
+    padding: 15px 146px;
+    margin-left: -104px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 9px;
+}
+
+.reset-form .next-option-2 h2 {
+    padding-top: 30px;
+}
+
+.reset-form .next-option-2 p {
+    padding-left: 11px;
+    color: #737474;
+}
+
+.reset-form .form-submit input {
+    width: 100%;
+    background-color: #313a38;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+
+/*verify otp*/
+
+.verify-form {
+    width: 430px;
+    height: 739px;
+    margin: 5px auto;
+    background: white;
+    border-radius: 24px;
+    box-shadow: 2px 5px 21px 9px #eaeaea;
+}
+
+.verify-form h1 {
+    text-align: center;
+    font-size: 29px;
+    font-weight: bolder;
+    padding: 36px 0px;
+}
+
+.verify-form .next-option-1 {
+    padding: 39px 23px 2px 135px;
+    font-size: 13px;
+}
+
+.verify-form .next-option-1 p {
+    color: #737474;
+}
+
+.verify-form .next-option-1 a {
+    border: 1px solid;
+    padding: 15px 130px;
+    margin-left: -104px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 9px;
+}
+
+.verify-form .next-option-1 h2 {
+    padding-top: 30px;
+}
+
+.verify-form .next-option-2 {
+    padding: 49px 23px 2px 135px;
+    font-size: 13px;
+}
+
+.verify-form .next-option-2 a {
+    border: 1px solid;
+    padding: 15px 146px;
+    margin-left: -104px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 9px;
+}
+
+.verify-form .form p {
+    float: right;
+    font-size: 14px;
+    margin-top: -9px;
+    letter-spacing: 0px;
+    padding-left: 4px;
+}
+
+.verify-form .next-option-2 h2 {
+    padding-top: 30px;
+}
+
+.verify-form .next-option-2 p {
+    padding-left: 11px;
+    color: #737474;
+}
+
+.verify-form .form-submit input {
+    width: 100%;
+    background-color: #313a38;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 9px;
+    font-size: 16px;
+    margin-top: 39px;
+}
+
+.verify-form .form a {
+    color: black;
+}
+
+.body {
+    background: #000;
+}
+
+.newpage h2 {
+    color: #fff;
+    font-size: 56px;
+    text-align: center;
+    margin: 500px auto;
+}

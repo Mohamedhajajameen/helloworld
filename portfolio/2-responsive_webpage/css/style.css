@@ -1,0 +1,720 @@
+.clear-me {
+    clear: both;
+}
+
+.body {
+    background-color: #000;
+    font-family: 'Source Sans Pro', arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+header {
+    height: 94px;
+    padding: 30px;
+}
+
+header .nav {
+    float: right;
+    margin-top: -10px;
+}
+
+.navbar {
+    margin-top: 2%;
+}
+
+.nav a:hover {
+    color: #11cc9e;
+}
+
+header .nav ul {
+    color: #efefef;
+}
+
+header .nav li {
+    list-style: none;
+    float: left;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 11px;
+}
+
+header .nav a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+.logo-position {
+    float: left;
+    height: 21px;
+    width: 138px;
+    background-image: url(http://uthraportfolio.000webhostapp.com/portfolio/2-responsive_webpage/images/logo.png);
+    background-position: 50% 100%;
+    transition: background-position .3s ease;
+    background-size: 139px;
+}
+
+.logo-position:hover {
+    background-position: 50% 0;
+}
+
+.banner {
+    margin-bottom: 71px;
+}
+
+.banner-content {
+    color: #efefef;
+    display: flex;
+}
+
+.banner-content .banner-left {
+    float: left;
+}
+
+.banner-content .banner-left h1 {
+    font-size: 57px;
+    line-height: 75px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.banner-content .banner-left span {
+    color: #3A60FB;
+}
+
+.banner-content .banner-left h2 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 30px;
+    max-width: 247px;
+}
+
+.banner-content .banner-left a {
+    text-decoration: none;
+    color: #efefef;
+}
+
+.arrow-down:hover {
+    transform: translateY(15px);
+}
+
+.banner-content .arrow-down {
+    padding-left: 12px;
+}
+
+.banner-content .banner-left p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    max-width: 550px;
+}
+
+.banner-content .banner-img {
+    float: right;
+}
+
+.banner-content .banner-img img {
+    height: 450px;
+}
+
+
+/*portfolio styles*/
+
+section.portfolios {
+    color: #efefef;
+}
+
+.portfolio h2 {
+    color: #ff4e00;
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.portfolio h3 {
+    font-size: 45px;
+    line-height: 65px;
+    max-width: 920px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.portfolio p {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    max-width: 474px;
+}
+
+.portfolio a {
+    color: #ff4e00;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 38px;
+}
+
+.portfolio .arrow {
+    background-image: url(http://uthraportfolio.000webhostapp.com/portfolio/2-responsive_webpage/images/orange-red.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    display: block;
+    max-width: 145px;
+}
+
+.portfolio-info .info-right .arrow {
+    background-image: url(http://uthraportfolio.000webhostapp.com/portfolio/2-responsive_webpage/images/arrow-green.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    display: block;
+    max-width: 145px;
+}
+
+.portfolio1-img img,
+.portfolio2-img img {
+    max-width: 100%;
+}
+
+.portfolio1-md-img,
+.portfolio2-md-img,
+.portfolio3-md-img,
+.portfolio4-md-img,
+.capability-md-right,
+.webflow-md-right {
+    display: none;
+}
+
+.portfolios .portfolio .arrow {
+    background-image: url(http://uthraportfolio.000webhostapp.com/portfolio/2-responsive_webpage/images/orange-red.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    display: block;
+    max-width: 145px;
+}
+
+.portfolio1-img {
+    margin-top: 70px;
+}
+
+.testimonal {
+    max-width: 720px;
+    margin-top: 177px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.blurredpixel h2 {
+    color: #3A60FB;
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.blurredpixel h3 {
+    font-size: 45px;
+    line-height: 65px;
+    max-width: 920px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.blurredpixel p {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    max-width: 474px;
+}
+
+.blurredpixel a {
+    color: #3A60FB;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 38px;
+}
+
+.portfolios .blurredpixel .arrow {
+    background-image: url(http://uthraportfolio.000webhostapp.com/portfolio/2-responsive_webpage/images/arrow-blue.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    display: block;
+    max-width: 145px;
+}
+
+.portfolio4-img img {
+    margin-top: 131px;
+    width: 100%;
+}
+
+.testimonal .quotes {
+    color: #3A60FB;
+    font-size: 155px;
+    line-height: 90px;
+    font-style: italic;
+    text-indent: -37px;
+    font-weight: 600px;
+}
+
+.testimonal .pixel {
+    color: #3A60FB;
+}
+
+.testimonal {
+    margin-bottom: 160px;
+}
+
+.testimonal .quote {
+    font-size: 155px;
+    line-height: 90px;
+    font-style: italic;
+    text-indent: -37px;
+    font-weight: 400;
+    text-align: center;
+    color: #f49831;
+}
+
+.testimonal p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+
+.testimonal img {
+    margin-top: 27px;
+    margin-bottom: 36px;
+}
+
+.testimonal .author-name {
+    color: #ccc;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.testimonal h6 {
+    color: #ccc;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.testimonal span {
+    color: #f49831;
+}
+
+.portfolio2-img img {
+    width: 100%;
+    margin-top: 131px;
+}
+
+.portfolio-info {
+    margin-bottom: 160px;
+}
+
+.portfolio-info .info-img {
+    float: left;
+}
+
+.portfolio-info .info-right {
+    float: right;
+    color: #efefef;
+    width: 38%;
+    max-width: 511px;
+}
+
+.portfolio-info .info-right h1 {
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #53b049;
+}
+
+.portfolio-info .info-right h2 {
+    max-width: 920px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 65px;
+}
+
+.portfolio-info .info-right p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 38px;
+}
+
+.portfolio-info .info-right a {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 38px;
+    color: #53b049;
+    text-decoration: none;
+}
+
+.portfolio3-img img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.burt {
+    color: #efefef;
+    margin-bottom: 177px;
+}
+
+.burt .burt-left {
+    float: left;
+    width: 38%;
+}
+
+.burt .burt-left h1 {
+    color: #b953ff;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.burt .burt-left h2 {
+    max-width: 920px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    font-size: 45px;
+    line-height: 65px;
+    font-weight: 400;
+}
+
+.burt .burt-left p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom: 40px;
+}
+
+.burt .burt-left a {
+    color: #b953ff;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 38px;
+    text-decoration: none;
+}
+
+.burt .burt-left .arrow {
+    background-image: url(http://uthraportfolio.000webhostapp.com/portfolio/2-responsive_webpage/images/arrow-violet.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    display: block;
+    max-width: 145px;
+}
+
+.burt .burt-right {
+    float: right;
+}
+
+.picture {
+    background-color: #000;
+    width: 100%;
+}
+
+.testimonal-part .testimonal-2 {
+    text-align: center;
+    color: #efefef;
+    margin-top: 177px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+    margin-bottom: 160px;
+}
+
+.testimonal-part .testimonal-2 h1 {
+    color: #b953ff;
+    font-size: 155px;
+    line-height: 90px;
+    font-style: italic;
+    text-indent: -37px;
+    font-weight: 600;
+}
+
+.testimonal-part .testimonal-2 h2 {
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.testimonal-part .testimonal-2 img {
+    margin-top: 27px;
+    margin-bottom: 36px;
+}
+
+.testimonal-part .testimonal-2 h5 {
+    color: #ccc;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.testimonal-part .testimonal-2 p {
+    color: #ccc;
+    font-size: 17px;
+    line-height: 25px;
+    line-height: 38px;
+}
+
+.testimonal-part .testimonal-2 span {
+    font-size: 17px;
+    line-height: 25px;
+    color: #b953ff;
+}
+
+.capabilities {
+    width: 100%;
+}
+
+.capability-left {
+    float: left;
+    color: #efefef;
+    width: 50%;
+}
+
+.capability-left h1 {
+    color: #efefef;
+    font-size: 47px;
+    line-height: 65px;
+    font-weight: 700;
+}
+
+.capability-left h2 {
+    color: #11cc9e;
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.capability-left h3 {
+    margin-bottom: 30px;
+    line-height: 65px;
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 45px;
+}
+
+.capability-left p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #efefef;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+section.Capabalities {
+    margin-bottom: 135px;
+}
+
+.capability-right {
+    float: right;
+}
+
+.webflow-left {
+    color: #efefef;
+    float: left;
+    max-width: 778px;
+    width: 60%;
+}
+
+.webflow-left h1 {
+    color: #4452fb;
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.webflow-left h3 {
+    margin-bottom: 30px;
+    line-height: 65px;
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 45px;
+}
+
+.webflow-left p {
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 400;
+}
+
+table.list {
+    margin-bottom: 18%;
+}
+
+.web-list td {
+    padding: 24px 43px 13px 23px;
+    border: none;
+    font-size: 18px;
+}
+
+.list td {
+    padding: 24px 43px 13px 23px;
+    border: none;
+    font-size: 18px;
+}
+
+.list-md {
+    display: none;
+}
+
+.weblist-md {
+    display: none;
+}
+
+.webflow-right {
+    float: right;
+}
+
+.contact {
+    color: #efefef;
+}
+
+.contact-form {
+    max-width: 885px;
+}
+
+.contact-form p {
+    color: #efefef;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 400;
+    margin-bottom: 42px;
+    max-width: 511px;
+}
+
+.contact-form h1 {
+    margin-bottom: 27px;
+    font-size: 47px;
+    line-height: 65px;
+    font-weight: 700;
+}
+
+.contact-form .input-form {
+    display: inline-block;
+}
+
+.contact-form input {
+    height: 56px;
+    max-width: 544px;
+    margin-bottom: 25px;
+    padding-right: 28px;
+    padding-left: 28px;
+    border: 0 transparent;
+    border-radius: 6px;
+    background-color: hsla(0, 0%, 100%, .07);
+    color: #efefef;
+    font-size: 15px;
+    font-weight: 600;
+    width: 85%;
+}
+
+.contact-form .button {
+    background: none;
+    padding-right: 120px;
+    font-size: 24px;
+    font-weight: 900;
+    background-image: url(http://uthraportfolio.000webhostapp.com/portfolio/2-responsive_webpage/images/arrow-white.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    display: block;
+    max-width: 158px;
+}
+
+.arrow:hover {
+    padding-right: 24px;
+}
+
+.arrow-down:hover {}
+
+.button:hover {
+    padding-right: 24px;
+}
+
+.contact-form textarea {
+    max-width: 544px;
+    margin-bottom: 25px;
+    padding-right: 28px;
+    padding-left: 28px;
+    border: 0 transparent;
+    border-radius: 6px;
+    background-color: hsla(0, 0%, 100%, .07);
+    color: #efefef;
+    font-size: 15px;
+    font-weight: 600;
+    width: 97%;
+    height: auto;
+    min-height: 130px;
+    padding-top: 14px;
+}
+
+.contact-form .contact-mail {
+    margin-top: 96px;
+    margin-bottom: 133px;
+    color: #efefef;
+    font-size: 47px;
+    line-height: 65px;
+    font-weight: 700;
+}
+
+.contact-form .contact-mail a {
+    color: #11cc9e;
+    text-decoration: none;
+    border-bottom-width: 5px;
+}
+
+.contact-form .contact-mail a:hover {
+    text-decoration: underline;
+}
+
+.contact-form .form-input {
+    max-width: 242px;
+}
+
+
+/*footer styles*/
+
+.footer {
+    padding-bottom: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #efefef;
+}
+
+.footer-left {
+    float: left;
+    max-width: 300px;
+}
+
+.footer-right {
+    float: right;
+}
+
+.in-line {
+    display: inline-block;
+}
+
+.footer-left a {
+    display: block;
+}

@@ -1,0 +1,36 @@
+.video-player{
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto;
+}
+body{
+	background: #000;
+}
+#video{
+	width: 100%;
+}
+button#button-pause {
+    display: none;
+}
+.icons button{
+	border: none;
+}
+.clear-me{
+	clear: both;
+}
+#seekslider{
+	width: 100%;
+	color: lightgray;	
+}
+.progressbar {
+    width: 100%;
+    background: lightgray;
+}
+.bar {
+	width: 0%;
+    background: red;
+    height: 10px;
+}
+.video-player .time{
+	float: right;
+}

@@ -1,0 +1,83 @@
+.ad-wrapper{
+	width: 300px;
+	height: 250px;
+	margin: 09px auto;
+	background-image: url('http://uthraportfolio.000webhostapp.com/iframes/banner3/images/bg.jpg');
+    animation: fade 0.7s linear;
+    opacity: 1;
+}
+.clear-me{
+	clear: both;
+}
+.logo {
+    max-width: 225px;
+}
+.logo img {
+    height: 29px;
+    margin-left: 16px;
+}
+img.logo-1 {
+    padding-top: 13px;
+    animation: move 0.7s linear;
+}
+img.logo-2 {
+        padding-left: 22px;
+    padding-top: 3px;
+    animation: move-2 0.7s linear;
+}
+img.logo-3 {
+    padding-left: 45px;
+    animation: move-3 0.7s linear;
+}
+@keyframes move {
+	from{ margin-left: 0px;}
+	to{ margin-left: 16px;}
+
+} 
+@keyframes move-2{
+    from{padding-left: 65px; }
+    to{padding-left: 22px;}
+}
+@keyframes move-3{
+    from{padding-left: 6px; }
+    to{padding-left: 45px;}
+}
+@keyframes fade{
+    from{opacity: 0; }
+    to{opacity: 1;}
+}
+
+.top-logo p {
+    letter-spacing: 0px;
+    padding-left: 15px;
+    max-width: 168px;
+    padding-top: 2px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+.bottom-content {
+    /* margin-top: 37px; */
+    max-width: 53px;
+    font-size: 12px;
+    margin-top: 38px;
+    margin-left: 13px;
+    border: 1px solid white;
+    padding: 6px 23px 8px 22px;
+}
+.bottom-content .call-to-action {
+    text-decoration: none;
+    color: white;
+}
+.bottom-content .call-to-action {
+    text-decoration: none;
+    color: white;
+}
+.right-content {
+    float: right;
+    margin-top: -24px;
+    margin-right: 7px;
+}
+.right-content img {
+    height: 66px;
+}
